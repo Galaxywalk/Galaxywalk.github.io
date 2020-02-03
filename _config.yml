@@ -38,7 +38,7 @@ staticman:
   format                 : "yml"
   moderation             : true
   path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+  requiredFields         : ['Bo Liang', 'Rambo@pku.edu.cn', 'message']
   transforms:
     email                : "md5"
   generatedFields:
@@ -86,7 +86,7 @@ author:
   location         : "Beijing, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"none"
+  # googlescholar    : #"none"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
